@@ -75,7 +75,7 @@ jupyterlab @ file:///home/conda/feedstock_root/build_artifacts/jupyterlab_173818
 jupyterlab_pygments @ file:///home/conda/feedstock_root/build_artifacts/jupyterlab_pygments_1733328101776/work
 jupyterlab_server @ file:///home/conda/feedstock_root/build_artifacts/jupyterlab_server_1733599573484/work
 kagglehub==0.3.10
-keras==3.8.0
+keras==3.9.0
 keras-core==0.1.7
 keras-cv==0.9.0
 kiwisolver==1.4.7
