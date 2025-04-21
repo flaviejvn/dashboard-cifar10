@@ -87,7 +87,7 @@ with tabs[1]:
 
     # Chargement du modèle
     try:
-        model = YOLO("models/best_overall.pt")
+        model = YOLO("best_overall.pt")
     except Exception as e:
         st.error("Erreur lors du chargement du modèle.")
         st.text(str(e))
