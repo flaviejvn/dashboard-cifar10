@@ -1,0 +1,3 @@
+Best Fold: 1
+Top1 Accuracy: 0.7678
+Path: best_overall.pt
