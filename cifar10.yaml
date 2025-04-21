@@ -1,0 +1,5 @@
+path: datasets/cifar10
+train: train
+val: val
+nc: 10
+names: ["Avion", "Automobile", "Oiseau", "Chat", "Cerf", "Chien", "Grenouille", "Cheval", "Bateau", "Camion"]
