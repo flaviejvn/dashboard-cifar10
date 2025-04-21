@@ -77,17 +77,17 @@ with tabs[1]:
 
     # Chargement des classes depuis data.yaml
     try:
-        with open("C:/Users/jouvi/OCR - IML/P7 - Developpez une preuve de concept/cifar10.yaml", "r") as f:
+        with open("cifar10.yaml", "r") as f:
             dataset_yaml = yaml.safe_load(f)
             class_names = dataset_yaml["names"]
     except Exception as e:
-        st.error("Erreur lors du chargement de 'data.yaml'.")
+        st.error("Erreur lors du chargement de 'cifar10.yaml'.")
         st.text(str(e))
         st.stop()
 
     # Chargement du modèle
     try:
-        model = YOLO("C:/Users/jouvi/OCR - IML/P7 - Developpez une preuve de concept/models/best_overall.pt")
+        model = YOLO("models/best_overall.pt")
     except Exception as e:
         st.error("Erreur lors du chargement du modèle.")
         st.text(str(e))
