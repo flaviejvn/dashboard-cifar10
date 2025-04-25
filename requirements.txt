@@ -1,13 +1,13 @@
 streamlit
-numpy==1.24.4
+numpy==1.23.5
 pandas
 matplotlib
 seaborn
 pillow
 torch==2.0.1
 torchvision==0.15.2
-ultralytics
-tensorflow==2.18.0
+ultralytics==8.0.166
+tensorflow==2.12.0
 keras
 scikit-learn
 scikit-image
