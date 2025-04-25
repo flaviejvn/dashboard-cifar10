@@ -4,8 +4,8 @@ pandas
 matplotlib
 seaborn
 pillow
-torch
-torchvision
+torch==2.0.1
+torchvision==0.15.2
 ultralytics
 tensorflow==2.18.0
 keras
